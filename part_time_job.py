@@ -1,7 +1,7 @@
 # coding: utf-8
 import openpyxl
 
-file = "office_data.xlsx"
+file = "エクセルファイル名.xlsx"
 #fileを開く
 book = openpyxl.load_workbook(file)
 sheet = book.worksheets[0]
